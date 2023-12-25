@@ -1,0 +1,316 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    background-color: rgb(234, 81, 81);
+    color: #fff;
+    padding: 10px 20px;
+}
+
+#head {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section {
+    background-color: rgb(235, 170, 170);
+    padding: 3px;
+    .buttons {
+        height: 20px;
+        justify-content: space-between;
+        text-align: left center;
+    }
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: cursive;
+}
+
+.nav-buttons {
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.button {
+    padding: 8px;
+    border: none;
+    background-color: rgb(234, 81, 81);
+    color: #fff;
+    box-shadow: none;
+    /* Remove box shadow */
+    border-radius: 15px;
+}
+
+.search-bar {
+    text-align: center;
+    padding: 20px;
+    width: 400px;
+    /* Increase width */
+    margin: 0 auto;
+    /* Center the search bar horizontally */
+}
+
+.search-bar input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    /* Add rounded corners */
+    border: 1px solid #ccc;
+    /* Add a border for a cleaner look */
+}
+
+.nav-buttons {
+    margin-left: 25%;
+    display: flex;
+    gap: 15px;
+    text-align: center;
+}
+
+.categories {
+    color: #020202;
+    float: center;
+    font-weight: bold;
+    text-align: center;
+}
+
+.catalogue {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.book {
+    text-align: center;
+    font: bold;
+    margin-bottom: 20px;
+    position: relative;
+    /* Add position relative for absolute positioning of overlay */
+}
+
+.book img {
+    height: auto;
+    width: 200px;
+    height: 250px;
+    border-radius: 10px;
+    /* Rounded corners */
+    transition: transform 0.3s ease-in-out;
+    /* Add transition for smooth hover effect */
+}
+
+.book:hover img {
+    transform: scale(1.1);
+    /* Increase the size on hover */
+}
+
+.button:hover,
+.nav-button:hover {
+    transform: scale(1.1);
+    /* Increase the size on hover */
+}
+
+.homepage img {
+    margin-top: 20px;
+    width: 100%;
+    height: 400px;
+}
+
+
+/* Footer Styles */
+
+footer {
+    background-color: rgb(234, 81, 81);
+    color: #fff;
+    padding: 20px;
+}
+
+
+/* Footer Styles */
+
+.footer-section {
+    background-color: rgb(234, 81, 81);
+    color: #fff;
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+.description {
+    padding-left: 80px;
+}
+
+#center {
+    width: 50%;
+}
+
+.about {
+    padding-right: 120px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
+
+.centre {
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+.Homepage {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: auto;
+}
+
+.Image img {
+    max-width: 100%;
+    height: auto;
+    width: 738px;
+    height: 400px;
+    margin-inline-end: auto;
+    align-items: start;
+}
+
+.read-me-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-decoration: none;
+    background-color: #ec0000;
+    color: #fff;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+
+/* Hover effect for the button */
+
+.read-me-button:hover {
+    background-color: #166305;
+}
+
+.First-Light {
+    font-size: 40px;
+    font: bold;
+    font-family: crgb(160, 76, 69);
+    color: #020202;
+}
+
+.Fl {
+    background-color: #ffffff;
+    color: #fff;
+    padding: 70px 80px;
+    font-weight: bold;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    margin-left: auto;
+}
+
+.Geology-Terrestrial-Planets {
+    font-size: 30px;
+    font: bold;
+    font-family: cursive;
+    color: #020202;
+}
+
+.Gt {
+    background-color: #ffffff;
+    color: #fff;
+    padding: 70px 80px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+.History-of-Astronomy {
+    font-size: 30px;
+    font: bold;
+    font-family: cursive;
+    color: #020202;
+}
+
+.Ha {
+    background-color: #ffffff;
+    color: #fff;
+    padding: 70px 80px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+.Stellar-Atmospheres {
+    font-size: 40px;
+    font: bold;
+    font-family: cursive;
+    color: #020202;
+}
+
+.Sa {
+    background-color: #ffffff;
+    color: #fff;
+    padding: 70px 80px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+.The-Birth-And-Death-Of-The-Sun {
+    margin-top: auto;
+    font-size: 30px;
+    font: bold;
+    font-family: cursive;
+    color: #020202;
+}
+
+.Bd {
+    background-color: #ffffff;
+    color: #fff;
+    padding: 50px 70px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    margin-left: auto;
+}
+
+.Space-Nomads {
+    margin-top: auto;
+    font-size: 30px;
+    font: bold;
+    font-family: cursive;
+    color: #020202;
+}
+
+.Sn {
+    background-color: #ffffff;
+    color: #fff;
+    padding: 50px 70px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    margin-left: auto;
+}
